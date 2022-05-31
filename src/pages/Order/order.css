@@ -57,6 +57,7 @@
     display: block;
     justify-content: center;
     align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .change-txt{
@@ -64,6 +65,7 @@
     color: #382ae1;
     font-weight: 700;
     text-decoration: underline;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .change-txt:hover{
@@ -133,5 +135,103 @@
 } */
 
 /* MOBILE DESIGN */
+
+@media screen and (max-width: 725px) {
+
+    .container-principal{
+        background-color: #e0e8ff;
+        height: 100vh;
+        width: 100vw;
+        background-image: url('../../images/pattern-background-mobile.svg');
+        background-position-y: -30px;
+    }
+
+    .card-container{
+        width: 327px;
+        height: 567px;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .img-hero{
+        width: 327px;
+        height: 160px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .txt-container{
+        padding: 20px 48px 0px 48px;
+        text-align: center;
+    }
+
+    .title-card{
+        font-size: 22px;
+    }
+
+    .txt-card{
+        font-size: 15px;
+    }
+
+    .plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #f7f9ff;
+    width: 279px;
+    height: 81px;
+    margin: 0px;
+    margin-left: 20px;
+    /* margin-right: 80px; */
+    border-radius: 11px;
+}
+
+    .price-container{
+    padding-left: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Red Hat Display', sans-serif; */
+    }
+
+    .plan-txt{
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 6px;
+    }
+
+    .price-txt{
+        font-size: 14px;
+        line-height: 6px;
+        color: #717fa6;
+    }
+
+    .icon-music{
+        /* padding-left: 20px; */
+        width: 48px;
+        height: 48px;
+    }
+
+
+    .change-txt{
+        padding-left: 50px;
+        font-size: 13px;
+
+    }
+
+    .btn-payment{
+
+        width: 279px;
+        height: 50px;
+        font-size: 15px;
+        box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+        margin-top: 0px;
+    }
+
+    .btn-container{
+        margin-top: 15px;
+    }
+
+    
+}
 
 

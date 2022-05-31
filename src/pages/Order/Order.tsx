@@ -1,4 +1,3 @@
-{/* <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet" /> */ }
 import '../Order/order.css';
 import illHero from '../../images/illustration-hero.svg';
 import iconMusic from '../../images/icon-music.svg';
