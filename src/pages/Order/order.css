@@ -1,0 +1,137 @@
+
+.container-principal{
+    background-color: #e0e8ff;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top top;
+    background-position-y: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    width: 450px;
+    height: 697px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.img-hero{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.txt-container{
+    padding: 20px 48px 0px 48px;
+    text-align: center;
+}
+
+
+.txt-card{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: #717fa6;
+}
+
+.plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #f7f9ff;
+    width: 354px;
+    height: 98px;
+    margin-left: 50px;
+    border-radius: 11px;
+}
+
+.icon-music{
+    padding-left: 20px;
+}
+
+.price-container{
+    padding-left: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-txt{
+    padding-left: 94px;
+    color: #382ae1;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.change-txt:hover{
+    text-decoration: none;
+    color:#766cf1;
+    cursor: pointer;
+}
+
+.plan-txt{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 6px;
+}
+
+.price-txt{
+    font-size: 16px;
+    line-height: 6px;
+    color: #717fa6;
+}
+
+.btn-container{
+    margin-top: 22px;
+    display: grid;
+    place-content: center;
+}
+
+.btn-payment{
+    display: grid;
+    place-content: center;
+    background-color: #382ae1;
+    width: 354px;
+    height: 50px;
+    border-radius: 11px;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+}
+
+.btn-payment:hover{
+    background-color: #766cf1;
+    cursor: pointer;
+}
+
+.btn-cancel{
+    color: #717fa6;
+    font-size: 15px;
+    font-weight: 750;
+}
+
+.btn-cancel:hover{
+    color: #1f2e55;
+    cursor: pointer;
+}
+
+/* .btn-new{
+
+    background-color: #382ae1;
+    width: 354px;
+    height: 50px;
+    border-radius: 11px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 900;
+    
+} */
+
+/* MOBILE DESIGN */
+
+
